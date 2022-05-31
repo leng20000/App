@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 const App = () => {
   const buttonText = { text: "Click me" };
   const labelText = "Enter name:";
-  
+  console.log('hello'); 
   return (
     <div>
       <label className="label" htmlFor="name">
